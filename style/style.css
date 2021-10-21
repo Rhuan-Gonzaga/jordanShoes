@@ -4,6 +4,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    background-color: whitesmoke;
+}
+
 
 /*Barra de desconto*/
 
@@ -30,23 +34,56 @@
     color:#181818;
 }
 
-/*Imagem
-.container-imagem{ 
-    display: inline-block;
-    position: relative;
-  
-}
-
-p{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    color: red;
-}*/
+/*Imagem*/
 img{
     margin-top: 1%;
     width: 100%;
 }
+
+/*Destaques*/
+.destaque{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.destaque h3{
+    margin-top: 1%;
+    color: #474747;
+    font-size: 1em;
+    margin-bottom: 3%;
+}
+
+/*cartoes com o tenis*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.card1{
+   flex-basis: 15em;
+   background-color: #ebe9ea;
+   margin-left: 25px;
+   margin-bottom: 20px;
+   width: 200px;
+
+}
+
+/*Efeito no card*/
+.card1:hover{
+    background-color: #ebe9ead3;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+
+    
+
+
+
+
 
 
